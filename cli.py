@@ -4,7 +4,7 @@ import pathlib
 import requests
 from python_freeipa import ClientMeta
 import python_freeipa.exceptions
-from src.utils.logger import idm_logger
+from src.logger import idm_logger
 import sys
 
 logger = idm_logger('IdM-Manager-Main')
